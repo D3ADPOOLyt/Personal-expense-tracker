@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0">
+  
+  
+  <link rel="stylesheet" href="..\static\css\home.css">
+  <title>ExTrack</title>
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "3a506605-aeac-4ce3-b38a-11ed0adf1a98", // The ID of this integration.
+      region: "jp-tok", // The region your integration is hosted in.
+      serviceInstanceID: "ff7e6181-f288-4c76-986e-e8db15cb47ed", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>Ex</span>Track</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+          
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+            <LI><a href="/signin" data-after="Login">Login</a></LI>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hi, welcome to the most<span></span></h1>
+        <h1>User-Friendly Expense Tracker<span></span></h1>
+        <a href="/signup" type="button" class="cta">Sign-up</a> 
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Services</h1>
+        <p>ExTrack offers a wide range of services to clients and sectors. Monetary options to suit your requirements. There is ExTrack to help you achieve your financial objectives.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/4727/4727424.png" /></div>
+          <h2>Expenses</h2>
+          <p>Paying bills and conserving money are only part of creating a budget. Making a financial strategy for the life you desire.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/4727/4727424.png" /></div>
+          <h2>Investments</h2>
+          <p>Support for stocks, bonds, CDs, mutual funds, and other investments will help you keep track of your investments and focus your portfolio.</p>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>EX</span>TRACK</h1>
+      </div>
+      <h2>Track it. Make it.</h2>     
+  </section>
+  <!-- End Footer -->
+  <script src="..\static\js\home.js"></script>
+</body>
+
+</html>

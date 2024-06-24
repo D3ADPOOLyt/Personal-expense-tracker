@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+{% block body %} 
+<style>
+
+    H1 {
+       position: relative;
+       top: 230px;
+       right: 50px;
+       color: rgb(194, 215, 0);
+
+    }
+
+p{
+position: relative;
+top: 270px;
+right: 50px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: larger;
+}
+
+span{
+    position: relative;
+    top: 310px;
+right: 50px;
+}
+
+
+   .ccc {
+        position: relative;
+    }
+   
+
+    
+    </style>
+    <div id=aa class="container">
+        <div class="ccc">
+            <div class="row">
+                <div class="col-md-6">
+                    
+                     <h1>Let's Begin Tracking</h1>
+                     <P>ExTrack helps you to maintain budget and<br>
+                     analyse the expense.</P>
+                     <span href=""  class="btn btn-dark">Start Tracking</span>
+                </div>
+                <div class="col-md-6">
+                    <img style="position: relative; top:100px; right:100px;" src="../static/images/images (13).png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
